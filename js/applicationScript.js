@@ -46,7 +46,8 @@ var init = function() {
   var input = document.getElementById("input"); 
  
   button.addEventListener("click", function() { 
-    
+    var text = input.value; 
+    console.log("Entered text: " + text);
   });
 
 
